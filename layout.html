@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<title>harryMuhari</title>
+<link rel="stylesheet" href="css/screen.css" />
+<link rel="stylesheet" href="css/jquery-theme.css" />
+<!--<link rel="stylesheet" href="css/font/iconic_stroke.css" />-->
+<link rel="stylesheet" href="css/font/elusive-webfont.css" />
+<link rel="stylesheet" href="css/font/social_foundicons.css" />
+</head>
+
+<body>
+
+<div id="container">
+	<div id="top">
+		<div id="logo"><a href="index.html"><h1>harryMuhari</h1></a></div>
+		<div class="clear"></div>
+		<div id="nav">
+			<ul>
+				<li><a href="#"><span class="icon-home"></span> Home</a></li>
+				<li><a href="#"><span class="icon-folder-open"></span> Portfolio</a></li>
+				<li><a href="#"><span class="icon-info-sign"></span> About</a></li>
+				<li><a href="#"><span class="icon-list"></span> Credits</a></li>
+				<li><a href="#"><span class="icon-phone"></span> Contacts</a></li>			
+			</ul>		
+		
+			<div id="search-bar">
+			<form action="search-script.php" method="post">
+				<ul><li><input type="search" name="criteria" /></li>
+				<li><input type="submit" value="Search" /></li></ul>
+			</form>
+			</div>
+			</div>
+	</div>
+	
+	<div id="content">
+			<div id="credentials">
+				<form action="login.php" method="post"><ul>
+				<li>Log in: </li>
+				<li><input type="text" name="username" required="required" placeholder="Username"/></li>
+				<li><input type="password" name="password" required="required" placeholder="Password"/></li>
+				<li><input type="submit" value="Login"></li>
+				<li>Don't have an account? <a href="register.php">Register</a>.</li></ul> 
+				</form>
+			</div>
+			<h3 class="main-header">Home</h3>
+			<div id="main-content">
+			<div class="article">
+				<div class="article-title"><span class="icon-quotes"></span><h3>Password hashing - 22/09/13</h3></div>
+				<p>I think the main reason why we have to hash passwords is to prevent passwords from being stolen or compromised.
+					You see, even if someone steal your database, they will never read your actual or cleartext password.
+
+					I know that some PHP frameworks or CMS already provide this functionality, but I believe that it is important for us to know how its implementation can be made.</p>
+				<div class="media-holder"><img src="images/content/pic1.png" alt="Image" /></div>
+				<div class="clear"></div>
+				<a class="toggle-view" href="#"><span class="icon-plus-sign"></span> Read more...</a>
+				<div class="article-tags icon-tags"><span>php</span><span>password</span><span>salt</span><span>md5</span><span>sha</span></div>
+			</div>
+			<div class="article">
+				<div class="article-title"><span class="icon-music"></span><h3>harryMuhari - Adelmira</h3></div>
+				<p>Hey guys, here's a new one from the depths of our African culture. 'Adelmira' was inspired by everything tribal bla bla bla bla... Listen to the track on my <a href="http://www.soundcloud.com/djharrie/adelmira">Soundcloud</a></p>
+				<div class="media-holder"><img src="images/content/pic1.png" alt="Image" /></div>
+				<div class="clear"></div>
+				<a class="toggle-view" href="#"><span class="icon-plus-sign"></span> Read more...</a>
+				<div class="article-tags icon-tags"><span>house</span><span>tribal</span><span>edm</span><span>music</span><span>kenyan</span></div>
+			</div>
+			<div class="article">
+				<div class="article-title"><span class="icon-camera"></span><h3>Wedding Pictures. Yay.</h3></div>
+				<p>So, I took some pictures over the weekend, a very eventful weekend actually. My former classmate was getting hitched.</p>
+				<div class="media-holder"><img src="images/content/pic1.png" alt="Image" /></div>
+				<div class="clear"></div>
+				<a class="toggle-view" href="#"><span class="icon-plus-sign"></span> Read more...</a>
+				<div class="article-tags icon-tags"><span>php</span><span>password</span><span>salt</span><span>md5</span><span>sha</span></div>
+			</div>
+		</div>
+		<div id="aside">
+			<div id="feeds">
+			Twitter feed here	
+			</div>
+			<div id="stats">
+			Stats here			
+			</div>	
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+	<span class="icon-facebook"></span> <span class="icon-twitter"></span> <span class="icon-youtube"></span> <span class="icon-googleplus"></span> <span class="icon-github"></span><span class="icon-soundcloud"></span>
+		<!--<i class="foundicon-facebook"></i> <i class="foundicon-twitter"></i> <i class="foundicon-youtube"></i> <i class="foundicon-google-plus"></i> <i class="foundicon-github"></i>-->
+	</div>
+
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/toggle-view.js"></script>
+</body>
+
+</html>
